@@ -13,6 +13,7 @@ detection results, and the DamVis dataset-generation pipeline.
 | `UAV_piping_label_data/` | 986 labeled-data JPG images organized into visible and infrared folders. |
 | `Model_detection_result/` | 341 model-result JPG images organized into visible and infrared folders. |
 | `DamVis/` | DamVis pipeline scripts, documentation, and generated metadata reports. |
+| `damwork.ipynb` | Notebook for generating haze, fog, low-light, rain-mist, and mixed Duan RGB variants while preserving YOLO bounding boxes. |
 
 ## Dataset Summary
 
