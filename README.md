@@ -13,7 +13,7 @@ detection results, and the DamVis dataset-generation pipeline.
 | `UAV_piping_label_data/` | 986 labeled-data JPG images organized into visible and infrared folders. |
 | `Model_detection_result/` | 341 model-result JPG images organized into visible and infrared folders. |
 | `DamVis/` | DamVis pipeline scripts, documentation, and generated metadata reports. |
-| `damwork.ipynb` | Notebook for generating haze, fog, low-light, rain-mist, and mixed Duan RGB variants while preserving YOLO bounding boxes. |
+| `damwork.ipynb` | End-to-end Duan RGB workflow: rendered-box conversion, leakage-free grouped splits, synthetic degradation, YOLO training, enhancement, and mAP recovery evaluation. |
 
 ## Dataset Summary
 
@@ -40,6 +40,35 @@ in the current documentation.
 
 Image names encode experimental conditions, but a complete definition of the
 abbreviations is not included.
+
+## Duan RGB YOLO Experiment
+
+The notebook and `DamVis/scripts/07_*` through `10_*` use the official open
+dataset at [Zenodo record 10896178](https://zenodo.org/records/10896178), DOI
+`10.5281/zenodo.10896178` (CC BY 4.0).
+
+The published visible JPGs contain the class text and rectangle rendered into
+the pixels rather than separate annotation files. The preparation step extracts
+that rectangle into a YOLO label and inpaints only the rendered overlay. It
+then assigns complete site/date capture groups to train, validation, or test.
+Synthetic images are generated only after splitting and are written outside
+the clean data:
+
+```text
+Duan_RGB_Experiment/
+|-- clean/
+|-- synthetic/
+|-- enhanced/
+|-- metadata/
+|-- lists/
+`-- runs/
+```
+
+On the original Windows setup, the notebook defaults to:
+
+```text
+E:/Downloads/10896178/Duan_RGB_Experiment
+```
 
 ## Known Gaps
 
