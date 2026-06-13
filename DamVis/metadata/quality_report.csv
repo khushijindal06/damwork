@@ -1,0 +1,37 @@
+clean_file,variant,psnr_db,ssim,status
+dam_0001.jpg,haze_light,20.38,0.8985,ok
+dam_0001.jpg,haze_medium,14.92,0.712,"psnr_out_of_range (14.9 dB, expected 15–25)"
+dam_0001.jpg,haze_heavy,11.43,0.4989,ok
+dam_0001.jpg,fog_light,22.77,0.9541,ok
+dam_0001.jpg,fog_medium,18.28,0.87,ok
+dam_0001.jpg,fog_heavy,15.76,0.7719,ok
+dam_0001.jpg,lowlight_dusk,12.95,0.8637,"psnr_out_of_range (13.0 dB, expected 16–26)"
+dam_0001.jpg,lowlight_dawn,9.11,0.6575,"psnr_out_of_range (9.1 dB, expected 12–22)"
+dam_0001.jpg,lowlight_night,7.07,0.4238,"psnr_out_of_range (7.1 dB, expected 8–18)"
+dam_0001.jpg,mixed_light,16.97,0.9198,ok
+dam_0001.jpg,mixed_medium,14.64,0.7989,ok
+dam_0001.jpg,mixed_heavy,15.78,0.6538,ok
+dam_0002.jpg,haze_light,20.4,0.899,ok
+dam_0002.jpg,haze_medium,14.95,0.7103,"psnr_out_of_range (15.0 dB, expected 15–25)"
+dam_0002.jpg,haze_heavy,11.46,0.496,ok
+dam_0002.jpg,fog_light,22.87,0.9549,ok
+dam_0002.jpg,fog_medium,18.63,0.8845,ok
+dam_0002.jpg,fog_heavy,15.67,0.7698,ok
+dam_0002.jpg,lowlight_dusk,12.98,0.8649,"psnr_out_of_range (13.0 dB, expected 16–26)"
+dam_0002.jpg,lowlight_dawn,9.13,0.6609,"psnr_out_of_range (9.1 dB, expected 12–22)"
+dam_0002.jpg,lowlight_night,7.09,0.4312,"psnr_out_of_range (7.1 dB, expected 8–18)"
+dam_0002.jpg,mixed_light,16.96,0.9208,ok
+dam_0002.jpg,mixed_medium,14.6,0.8007,ok
+dam_0002.jpg,mixed_heavy,15.71,0.6544,ok
+dam_0003.jpg,haze_light,20.4,0.8972,ok
+dam_0003.jpg,haze_medium,14.96,0.7087,"psnr_out_of_range (15.0 dB, expected 15–25)"
+dam_0003.jpg,haze_heavy,11.47,0.4925,ok
+dam_0003.jpg,fog_light,22.92,0.9551,ok
+dam_0003.jpg,fog_medium,18.57,0.8846,ok
+dam_0003.jpg,fog_heavy,15.78,0.7828,ok
+dam_0003.jpg,lowlight_dusk,13.0,0.8661,"psnr_out_of_range (13.0 dB, expected 16–26)"
+dam_0003.jpg,lowlight_dawn,9.15,0.6636,"psnr_out_of_range (9.2 dB, expected 12–22)"
+dam_0003.jpg,lowlight_night,7.11,0.4383,"psnr_out_of_range (7.1 dB, expected 8–18)"
+dam_0003.jpg,mixed_light,16.96,0.922,ok
+dam_0003.jpg,mixed_medium,14.59,0.8025,ok
+dam_0003.jpg,mixed_heavy,15.66,0.6544,ok
