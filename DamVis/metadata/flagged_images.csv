@@ -1,0 +1,13 @@
+file,variant,issue,psnr
+dam_0001.jpg,haze_medium,"psnr_out_of_range (14.9 dB, expected 15–25)",14.92
+dam_0001.jpg,lowlight_dusk,"psnr_out_of_range (13.0 dB, expected 16–26)",12.95
+dam_0001.jpg,lowlight_dawn,"psnr_out_of_range (9.1 dB, expected 12–22)",9.11
+dam_0001.jpg,lowlight_night,"psnr_out_of_range (7.1 dB, expected 8–18)",7.07
+dam_0002.jpg,haze_medium,"psnr_out_of_range (15.0 dB, expected 15–25)",14.95
+dam_0002.jpg,lowlight_dusk,"psnr_out_of_range (13.0 dB, expected 16–26)",12.98
+dam_0002.jpg,lowlight_dawn,"psnr_out_of_range (9.1 dB, expected 12–22)",9.13
+dam_0002.jpg,lowlight_night,"psnr_out_of_range (7.1 dB, expected 8–18)",7.09
+dam_0003.jpg,haze_medium,"psnr_out_of_range (15.0 dB, expected 15–25)",14.96
+dam_0003.jpg,lowlight_dusk,"psnr_out_of_range (13.0 dB, expected 16–26)",13.00
+dam_0003.jpg,lowlight_dawn,"psnr_out_of_range (9.2 dB, expected 12–22)",9.15
+dam_0003.jpg,lowlight_night,"psnr_out_of_range (7.1 dB, expected 8–18)",7.11
