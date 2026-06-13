@@ -14,6 +14,7 @@ detection results, and the DamVis dataset-generation pipeline.
 | `Model_detection_result/` | 341 model-result JPG images organized into visible and infrared folders. |
 | `DamVis/` | DamVis pipeline scripts, documentation, and generated metadata reports. |
 | `damwork.ipynb` | End-to-end Duan RGB workflow: rendered-box conversion, leakage-free grouped splits, synthetic degradation, YOLO training, enhancement, and mAP recovery evaluation. |
+| `Duan_YOLO_Code/` | Standalone review bundle containing the notebook, all four Duan workflow scripts, requirements, and execution notes. |
 
 ## Dataset Summary
 
