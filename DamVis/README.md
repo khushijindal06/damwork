@@ -1,5 +1,9 @@
 # DamVis — UAV Dam & Embankment Visibility Enhancement Dataset
 
+> **Repository note:** This document describes a previous three-image pilot.
+> Its generated `dataset/` and metadata reports are not included here. Use
+> `../damwork.ipynb` or `../Duan_YOLO_Code/` for the current Duan RGB workflow.
+
 **First large-scale paired multi-degradation UAV aerial image dataset  
 for dam and embankment inspection under adverse visibility conditions.**
 

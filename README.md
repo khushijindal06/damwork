@@ -12,7 +12,7 @@ detection results, and the DamVis dataset-generation pipeline.
 | `Uav_piping_data_information.xlsx` | Per-image collection metadata, including weather, location, image name, and altitude values. |
 | `UAV_piping_label_data/` | 986 labeled-data JPG images organized into visible and infrared folders. |
 | `Model_detection_result/` | 341 model-result JPG images organized into visible and infrared folders. |
-| `DamVis/` | DamVis pipeline scripts, documentation, and generated metadata reports. |
+| `DamVis/` | DamVis pipeline scripts and documentation. |
 | `damwork.ipynb` | End-to-end Duan RGB workflow: rendered-box conversion, leakage-free grouped splits, synthetic degradation, YOLO training, enhancement, and mAP recovery evaluation. |
 | `Duan_YOLO_Code/` | Standalone review bundle containing the notebook, all four Duan workflow scripts, requirements, and execution notes. |
 
@@ -84,9 +84,9 @@ E:/Downloads/10896178/Duan_RGB_Experiment
   `June 21th`.
 - The altitude unit and the image-name abbreviation scheme need documentation
   before the metadata can be interpreted unambiguously.
-- `DamVis/README.md` describes a generated 39-image DamVis dataset, but the
-  uploaded DamVis folder currently contains only pipeline code and metadata,
-  not its `dataset/` directory.
+- `DamVis/README.md` describes a previous 39-image pilot, but the uploaded
+  DamVis folder contains only pipeline code and documentation, not its
+  generated `dataset/` directory.
 
 ## Recommended Next Additions
 
