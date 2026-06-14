@@ -15,6 +15,7 @@ detection results, and the DamVis dataset-generation pipeline.
 | `DamVis/` | DamVis pipeline scripts and documentation. |
 | `damwork.ipynb` | End-to-end Duan RGB workflow: rendered-box conversion, leakage-free grouped splits, synthetic degradation, YOLO training, enhancement, and mAP recovery evaluation. |
 | `Duan_YOLO_Code/` | Standalone review bundle containing the notebook, all four Duan workflow scripts, requirements, and execution notes. |
+| `Synthetic_Image_Generation/` | Exact synthetic-image generator, portable 7,500-row metadata CSV, metadata exporter, requirements, and data dictionary. |
 
 ## Dataset Summary
 
