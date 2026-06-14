@@ -1,0 +1,36 @@
+# Private derived datasets and experiment outputs
+Duan_RGB_Experiment/
+DamVis/
+Duan_YOLO_Code/
+Synthetic_Image_Generation/
+synthetic/
+enhanced/
+clean/
+metadata/
+lists/
+runs/
+wandb/
+
+# Models and exported artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Local notebooks, caches, and environments
+*.ipynb
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local archives and temporary files
+*.zip
+*.rar
+*.7z
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
